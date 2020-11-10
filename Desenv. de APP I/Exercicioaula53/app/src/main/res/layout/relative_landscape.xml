@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple100"
+        android:text="@string/violet" />
+
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red700"
+        android:text="@string/red"/>
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellowA400"
+        android:text="@string/yellow"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange900"
+        android:text="@string/orange"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBlueA700"
+        android:text="@string/blue"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/greenA700"
+        android:text="@string/green"
+        android:layout_toStartOf="@+id/blue"
+        android:layout_alignBaseline="@+id/blue"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/indigoA400"
+        android:text="@string/indigo"
+        android:layout_toEndOf="@+id/blue"
+        android:layout_alignBaseline="@+id/blue"
+        android:layout_marginStart="10dp"/>
+
+
+
+
+</RelativeLayout>

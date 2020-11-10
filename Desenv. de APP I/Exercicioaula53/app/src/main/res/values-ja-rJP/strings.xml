@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercicioaula5</string>
+    <string name="red">赤</string>
+    <string name="orange">オレンジ</string>
+    <string name="yellow">黄</string>
+    <string name="green">緑</string>
+    <string name="blue">青い</string>
+    <string name="indigo">インジゴ</string>
+    <string name="pink">ピンク</string>
+    <string name="windows">アクティブウィンドウ</string>
+    <string name="violet">バイオレット</string>
+    <string name="rowone">行1</string>
+    <string name="rowtwo">2列目</string>
+    <string name="rowthree">行3</string>
+    <string name="rowfour">行4</string>
+</resources>

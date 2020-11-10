@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red700"
+        android:text="@string/red">
+
+    </Button>
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange900"
+        android:text="@string/orange"
+        android:layout_below="@+id/red"
+        android:layout_toEndOf="@id/red">
+
+    </Button>
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellowA400"
+        android:text="@string/yellow"
+        android:layout_below="@+id/orange"
+        android:layout_toEndOf="@id/orange">
+
+    </Button>
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/greenA700"
+        android:text="@string/green"
+        android:layout_below="@+id/yellow"
+        android:layout_toEndOf="@id/yellow">
+    </Button>
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBlueA700"
+        android:text="@string/blue"
+        android:layout_below="@+id/green"
+        android:layout_toStartOf="@id/green">
+    </Button>
+
+    <Button
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/indigoA400"
+        android:text="@string/indigo"
+        android:layout_below="@+id/blue"
+        android:layout_toStartOf="@id/blue"/>
+
+    <Button
+        android:id="@+id/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pinkA200"
+        android:text="@string/pink"
+        android:layout_below="@+id/indigo"
+        android:layout_toStartOf="@id/indigo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/windows"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</RelativeLayout>

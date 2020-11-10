@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "496630567638",
+    "firebase_url": "https://piggy-bank-6375d.firebaseio.com",
+    "project_id": "piggy-bank-6375d",
+    "storage_bucket": "piggy-bank-6375d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496630567638:android:9aaccfe9b358901305ef77",
+        "android_client_info": {
+          "package_name": "bruno.koster.myeleventhapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496630567638-nff6mfp4e51hh4g5cmg1jhvje964k7o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAldHA7N0SwkhgzGT3yN7Nvrs9JlmcPBQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496630567638-nff6mfp4e51hh4g5cmg1jhvje964k7o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

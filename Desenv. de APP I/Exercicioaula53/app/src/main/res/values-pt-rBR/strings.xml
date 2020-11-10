@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercicioaula5</string>
+    <string name="red">Vermelho</string>
+    <string name="orange">Laranja</string>
+    <string name="yellow">Amarelo</string>
+    <string name="green">Verde</string>
+    <string name="blue">Azul</string>
+    <string name="indigo">Indigo</string>
+    <string name="pink">Rosa</string>
+    <string name="windows">Ativar o Windows</string>
+    <string name="violet">Violeta</string>
+    <string name="rowone">Linha um</string>
+    <string name="rowtwo">Linha dois</string>
+    <string name="rowthree">Linha três</string>
+    <string name="rowfour">Linha quatro</string>
+</resources>
